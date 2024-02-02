@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  height: 60px;
+  background-color: #fff;
+  color: #fff;
+}
+
+.header-logo {
+  font-weight: bold;
+  align-items: left;
+}
+
+.pinterest-button {
+  background-color: #211922;
+  border: none;
+  border-radius: 24px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 1.8;
+  min-width: 60px;
+  box-sizing: border-box;
+  padding: 10px 13px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.pinterest-button:hover {
+  background-color: #1c1c1c;
+}
+
+.pinterest-button:focus {
+  box-shadow: 0 0 0 2px rgba(221, 75, 57, 0.5);
+}
+
+.pinterest-button:active {
+  background-color: #1c1c1c;
+  box-shadow: 0 0 0 2px rgba(221, 75, 57, 0.5);
+}
+
+.button-div {
+  position: fixed;
+  padding: 0px 40px;
+}
+
+.create-btn {
+  position: fixed;
+  padding: 0px 130px;
+  color: #1c1c1c;
+  font-weight: 580;
+}
+
+.search-bar {
+  position: fixed;
+  padding: 0px 430px;
+  width: 300px;
+}
+
+.bell {
+  position: fixed;
+  padding-left: 1500px;
+  align-items: right;
+}
+
+.msg {
+  position: fixed;
+  padding-left: 1540px;
+  align-items: right;
+}
+
+.icon {
+  position: fixed;
+  padding-left: 1580px;
+  align-items: right;
+}
